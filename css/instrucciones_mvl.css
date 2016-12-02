@@ -1,0 +1,42 @@
+body,html{height:100%;padding:0px;margin:0px; background-image:url(../img/f_ho.png)}
+
+#astro{
+	position:fixed;
+	bottom:0;
+	left:1%;
+
+}
+
+#instrucciones {
+	margin:auto;
+	width:30%;
+	margin-left:20%;
+	margin-top:5%;
+	border-color:black;
+	border: 1px solid yellow;
+	padding-top:5%;
+	padding-right: 5%;
+	padding-left:5%;
+	background:rgba(200,210,100,0.50);
+}
+#about {
+	margin:auto;
+	width:30%;
+	margin-left:20%;
+	margin-top:1%;
+	border-color:black;
+	border: 1px solid yellow;
+	padding-top:5%;
+	padding-right: 5%;
+	padding-left:5%;
+	padding-bottom:5%;
+	background:rgba(200,210,100,0.50);
+}
+h1{
+	color:white;
+}
+p{
+	color:white;
+	font-size: 18px;
+
+}
