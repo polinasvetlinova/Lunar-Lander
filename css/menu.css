@@ -1,0 +1,74 @@
+body {
+	background-image:url(../img/fondo%20horizontal%20300-292.png);
+}
+
+#izquierda,#derecha,#centro{
+	width: 33%;
+	height: 570px;
+	display:inline-block;
+	float:left;
+
+}
+#suelo{
+	width:100%;
+	height: 20%;
+	position:fixed;
+	bottom:0;
+	left:0;
+	background-image:url(../img/luna%20horizontal%20400-133.png);
+}
+#astronauta{
+	position:absolute;
+	bottom:130px;
+	left:30px;
+}
+#nave{
+	margin:0 auto;
+	display:block;
+	margin-top:10%;
+}
+#menu{
+	float:right;
+}
+#box_menu{
+	margin:0 auto;
+	display:block;
+	background:rgba(255,255,0,0.3);
+	width: 350px;
+	height: 350px;
+	margin-top:10%;
+	border: 1px solid blue;
+}
+h1{
+	text-align: center;
+}
+ul{
+	list-style-type:none;
+	margin:auto;
+	padding:0;
+	width:60%;
+	background: rgba(0,0,255, 0.3);
+	border: 1px solid yellow;
+	font-size:18px;
+}
+li a{
+	display:block;
+	color: rgb(255,255,0);
+	padding: 10px 20px;
+	text-decoration: none;
+
+}
+
+li{
+	text-align:center;
+	border-bottom:1px solid green;
+	font-size:25px;
+	font-style:oblique;
+}
+li:last-child{
+	border-bottom: none;
+}
+li a:hover {
+    background: rgba(128,0,128,0.3);
+    color: rgb(0,255,0);
+}
